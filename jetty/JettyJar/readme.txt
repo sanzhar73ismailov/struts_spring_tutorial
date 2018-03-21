@@ -9,3 +9,5 @@ javac -d classes -cp jetty-all-uber.jar HelloWorld.java
 
 rem The following command runs the HelloWorld example:
 java -cp classes;jetty-all-uber.jar org.eclipse.jetty.embedded.HelloWorld
+
+You can now point your browser at http://localhost:8080 to see your hello world page.
